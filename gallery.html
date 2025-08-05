@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Gallery</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;600&family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Portfolio</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="certifications.html">Certifications</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <button id="theme-toggle" class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="gallery-section">
+            <div class="section-header" data-aos="fade-up">
+                <h2>My <span>Gallery</span></h2>
+                <p>A collection of my work, projects, and achievements</p>
+            </div>
+
+            <div class="gallery-filter" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="app">App Development</button>
+                <button class="filter-btn" data-filter="graphic">Graphic Design</button>
+                <button class="filter-btn" data-filter="photography">Photography</button>
+            </div>
+
+            <div class="gallery-container">
+                <!-- Web Design -->
+                <div class="gallery-item web" data-aos="fade-up">
+                    <img src="assets/web1.jpg" alt="Web Design Project">
+                    <div class="item-overlay">
+                        <h3>E-commerce Website</h3>
+                        <p>Fully responsive online store with custom CMS</p>
+                        <a href="#" class="view-btn">View Details</a>
+                    </div>
+                </div>
+
+                <div class="gallery-item web" data-aos="fade-up" data-aos-delay="100">
+                    <img src="assets/web2.jpg" alt="Web Design Project">
+                    <div class="item-overlay">
+                        <h3>Portfolio Website</h3>
+                        <p>Minimalist design for creative professional</p>
+                        <a href="#" class="view-btn">View Details</a>
+                    </div>
+                </div>
+
+                <!-- App Development -->
+                <div class="gallery-item app" data-aos="fade-up" data-aos-delay="200">
+                    <img src="assets/app1.jpg" alt="App Development Project">
+                    <div class="item-overlay">
+                        <h3>Fitness Tracker App</h3>
+                        <p>Mobile application for workout tracking</p>
+                        <a href="#" class="view-btn">View Details</a>
+                    </div>
+                </div>
+
+                <div class="gallery-item app" data-aos="fade-up" data-aos-delay="300">
+                    <img src="assets/app2.jpg" alt="App Development Project">
+                    <div class="item-overlay">
+                        <h3>Task Manager App</h3>
+                        <p>Productivity application with cloud sync</p>
+                        <a href="#" class="view-btn">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Graphic Design -->
+                <div class="gallery-item graphic" data-aos="fade-up">
+                    <img src="assets/graphic1.jpg" alt="Graphic Design Project">
+                    <div class="item-overlay">
+                        <h3>Brand Identity</h3>
+                        <p>Complete branding package for startup</p>
+                        <a href="#" class="view-btn">View Details</a>
+                    </div>
+                </div>
+
+                <div class="gallery-item graphic" data-aos="fade-up" data-aos-delay="100">
+                    <img src="assets/graphic2.jpg" alt="Graphic Design Project">
+                    <div class="item-overlay">
+                        <h3>Poster Design</h3>
+                        <p>Event poster for music festival</p>
+                        <a href="#" class="view-btn">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Photography -->
+                <div class="gallery-item photography" data-aos="fade-up" data-aos-delay="200">
+                    <img src="assets/photo1.jpg" alt="Photography Project">
+                    <div class="item-overlay">
+                        <h3>Urban Landscapes</h3>
+                        <p>City photography series</p>
+                        <a href="#" class="view-btn">View Details</a>
+                    </div>
+                </div>
+
+                <div class="gallery-item photography" data-aos="fade-up" data-aos-delay="300">
+                    <img src="assets/photo2.jpg" alt="Photography Project">
+                    <div class="item-overlay">
+                        <h3>Portrait Series</h3>
+                        <p>Professional portrait photography</p>
+                        <a href="#" class="view-btn">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Mixed -->
+                <div class="gallery-item web graphic" data-aos="fade-up">
+                    <img src="assets/mixed1.jpg" alt="Mixed Project">
+                    <div class="item-overlay">
+                        <h3>Marketing Campaign</h3>
+                        <p>Digital and print materials</p>
+                        <a href="#" class="view-btn">View Details</a>
+                    </div>
+                </div>
+
+                <div class="gallery-item app photography" data-aos="fade-up" data-aos-delay="100">
+                    <img src="assets/mixed2.jpg" alt="Mixed Project">
+                    <div class="item-overlay">
+                        <h3>Travel Guide</h3>
+                        <p>App with original photography</p>
+                        <a href="#" class="view-btn">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+<footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="certifications.html">Certifications</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-envelope"></i> ankitacharya2684@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +977-9869449556</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Me</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>ankitacharya &copy; 2025 My Portfolio. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+
+        // Gallery filter functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const galleryItems = document.querySelectorAll('.gallery-item');
+
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // Remove active class from all buttons
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    // Add active class to clicked button
+                    this.classList.add('active');
+
+                    const filterValue = this.getAttribute('data-filter');
+
+                    galleryItems.forEach(item => {
+                        if (filterValue === 'all' || item.classList.contains(filterValue)) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>

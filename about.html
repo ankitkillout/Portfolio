@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | About</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;600&family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Portfolio</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="certifications.html">Certifications</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <button id="theme-toggle" class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about-section">
+            <div class="about-container">
+                <div class="about-image" data-aos="fade-right">
+                    <img src="images/profile.png" alt="Profile Photo">
+                </div>
+                <div class="about-content" data-aos="fade-left">
+                    <h2>About <span>Me</span></h2>
+                    <p>Hello! I'm a passionate designer and developer with over 5 years of experience in creating beautiful, functional websites and applications. My journey in tech started when I was just a teenager, and I've been hooked ever since.</p>
+                    <p>I specialize in front-end development with a focus on user experience and responsive design. My goal is to create digital experiences that are not only visually appealing but also intuitive and accessible to all users.</p>
+                    <div class="skills">
+                        <h3>My Skills</h3>
+                        <div class="skill-bars">
+                            <div class="skill">
+                                <p>HTML/CSS</p>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 95%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <p>JavaScript</p>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 85%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <p>UI/UX Design</p>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 90%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <p>React</p>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 80%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-details" data-aos="fade-up">
+            <div class="section-header">
+                <h2>Contact <span>Details</span></h2>
+                <p>Feel free to reach out to me through any of these channels</p>
+            </div>
+            <div class="contact-cards">
+                <div class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>ankitacharya2684@gmail.com</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-phone"></i>
+                    <h3>Phone</h3>
+                    <p>+977-9869449556</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Location</h3>
+                    <p>Bharatpur-04, Chitwan, Nepal</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Availability</h3>
+                    <p>Sun-Fri: 9AM - 5PM</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mini-gallery" data-aos="fade-up">
+            <div class="section-header">
+                <h2>Work <span>Gallery</span></h2>
+                <p>A glimpse of my recent projects and works</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="assets/work1.jpg" alt="Work 1">
+                    <div class="overlay">
+                        <h3>Project Title</h3>
+                        <a href="gallery.html">View More</a>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/work2.jpg" alt="Work 2">
+                    <div class="overlay">
+                        <h3>Project Title</h3>
+                        <a href="gallery.html">View More</a>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/work3.jpg" alt="Work 3">
+                    <div class="overlay">
+                        <h3>Project Title</h3>
+                        <a href="images/profile.png">View More</a>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/work4.jpg" alt="Work 4">
+                    <div class="overlay">
+                        <h3>Project Title</h3>
+                        <a href="gallery.html">View More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="view-all">
+                <a href="gallery.html" class="btn-primary">View Full Gallery</a>
+            </div>
+        </section>
+    </main>
+
+<footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="certifications.html">Certifications</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-envelope"></i> ankitacharya2684@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +977-9869449556</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Me</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>ankitacharya &copy; 2025 My Portfolio. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+</html>

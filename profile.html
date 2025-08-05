@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Profile</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;600&family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Portfolio</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="certifications.html">Certifications</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="profile.html" class="active">Profile</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <button id="theme-toggle" class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="profile-section">
+            <div class="profile-header" data-aos="fade-up">
+                <div class="profile-image">
+                    <img src="assets/profile.jpg" alt="Profile Photo">
+                    <button class="edit-btn"><i class="fas fa-camera"></i> Change Photo</button>
+                </div>
+                <div class="profile-info">
+                    <h2>Ankit <span>Acharya</span></h2>
+                    <p class="title">Web Developer & Designer</p>
+                    <div class="profile-stats">
+                        <div class="stat">
+                            <span class="number">45</span>
+                            <span class="label">Projects</span>
+                        </div>
+                        <div class="stat">
+                            <span class="number">12</span>
+                            <span class="label">Certifications</span>
+                        </div>
+                        <div class="stat">
+                            <span class="number">5</span>
+                            <span class="label">Years Experience</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile-content">
+                <div class="profile-edit" data-aos="fade-right">
+                    <h3>Edit <span>Profile</span></h3>
+                    <form id="profileForm">
+                        <div class="form-group">
+                            <label for="fullName">Full Name</label>
+                            <input type="text" id="fullName" name="fullName" value="Ankit Acharya">
+                        </div>
+                        <div class="form-group">
+                            <label for="profession">Profession</label>
+                            <input type="text" id="profession" name="profession" value="Web Developer & Designer">
+                        </div>
+                        <div class="form-group">
+                            <label for="bio">Bio</label>
+                            <textarea id="bio" name="bio" rows="4">Passionate web developer with 5 years of experience creating beautiful, functional websites. Specializing in front-end development with a focus on user experience.</textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" value="ankitacharya2684@gmail.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone" value="+977-9869449556">
+                        </div>
+                        <div class="form-group">
+                            <label for="location">Location</label>
+                            <input type="text" id="location" name="location" value="Bharatpur-04, Chitwan, Nepal">
+                        </div>
+                        <div class="form-group">
+                            <label>Social Links</label>
+                            <div class="social-inputs">
+                                <div class="social-input">
+                                    <i class="fab fa-linkedin"></i>
+                                    <input type="text" placeholder="LinkedIn URL" value="https://www.linkedin.com/in/ankit-acharya-bbb49b2aa/">
+                                </div>
+                                <div class="social-input">
+                                    <i class="fab fa-github"></i>
+                                    <input type="text" placeholder="GitHub URL" value="https://github.com/ankitkillout">
+                                </div>
+                                <div class="social-input">
+                                    <i class="fab fa-facebook"></i>
+                                    <input type="text" placeholder="Twitter URL" value="twitter.com/ankitacharya">
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn-primary">Save Changes</button>
+                    </form>
+                </div>
+
+                <div class="profile-gallery" data-aos="fade-left">
+                    <h3>My <span>Gallery</span></h3>
+                    <div class="gallery-grid">
+                        <div class="gallery-item">
+                            <img src="assets/work1.jpg" alt="Work 1">
+                            <div class="overlay">
+                                <button class="edit-btn"><i class="fas fa-edit"></i></button>
+                                <button class="delete-btn"><i class="fas fa-trash"></i></button>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="assets/work2.jpg" alt="Work 2">
+                            <div class="overlay">
+                                <button class="edit-btn"><i class="fas fa-edit"></i></button>
+                                <button class="delete-btn"><i class="fas fa-trash"></i></button>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="assets/work3.jpg" alt="Work 3">
+                            <div class="overlay">
+                                <button class="edit-btn"><i class="fas fa-edit"></i></button>
+                                <button class="delete-btn"><i class="fas fa-trash"></i></button>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="assets/work4.jpg" alt="Work 4">
+                            <div class="overlay">
+                                <button class="edit-btn"><i class="fas fa-edit"></i></button>
+                                <button class="delete-btn"><i class="fas fa-trash"></i></button>
+                            </div>
+                        </div>
+                        <div class="gallery-item add-new">
+                            <i class="fas fa-plus"></i>
+                            <p>Add New Image</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="certifications.html">Certifications</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-envelope"></i> ankitacharya2684@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +977-9869449556</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Me</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>ankitacharya &copy; 2025 My Portfolio. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+
+        // Profile form submission
+        document.getElementById('profileForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Profile updated successfully!');
+        });
+
+        // Add new image button
+        document.querySelector('.add-new').addEventListener('click', function() {
+            alert('Feature to add new images coming soon!');
+        });
+    </script>
+</body>
+</html>
